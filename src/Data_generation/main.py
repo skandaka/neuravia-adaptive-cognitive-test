@@ -1,9 +1,9 @@
 import json
 import asyncio
-from question_bank_generator import QuestionBankGenerator
+from Data_generation.question_bank_generator import QuestionBankGenerator
 from adaptive_selector import AdaptiveTestingEngine
 from rgat_network import RGAT, CognitiveGraphBuilder
-from openai_integration import OpenAIQuestionGenerator
+from Data_generation.openai_integration import OpenAIQuestionGenerator
 import torch
 
 def main():
